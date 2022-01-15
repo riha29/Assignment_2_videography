@@ -32,6 +32,7 @@
 
 .camera:hover {
     transform: scale(1.20);
+    transition-duration: .75s;
 }
 
 .accessories {
@@ -51,6 +52,7 @@
 
 .acc-pic:hover {
     transform: scale(1.2);
+    transition-duration: .75s;
 }
 
 .acc-head {
@@ -141,6 +143,7 @@ color: #242526;
 
 .button:hover {
     transform: scale(1.20);
+    transition-duration: .75s;
 }
 
 .delivery {
@@ -172,4 +175,4 @@ color: #242526;
 .body {
     background-color: whitesmoke;
 }
-  
+
