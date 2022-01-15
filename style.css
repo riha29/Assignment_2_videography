@@ -1,16 +1,16 @@
 .title {
     font-size: 20px;
     color: #333333;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 150px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .heading {
     font-size: 50px;
     color: #333333;
-    font-family:'Times New Roman', Times, serif;
-    margin-top: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 160px;
 }
 
 .heading-div {
@@ -20,16 +20,21 @@
 
 .camera {
     margin-top: 80px;
-    height:400px;
-    width:  600px;
-    margin-left: 40px;
+    height:350px;
+    width:  520px;
+    margin-left: 50px;
+}
+
+.camera:hover {
+    transform: scale(1.20);
 }
 
 .accessories {
     font-size: 33px;
     text-align: center;
     color: #333333;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
 }
 
  .acc-pic {
@@ -37,6 +42,10 @@
     padding-top: 20px;
     height: 180px;
     width: 245px;
+}
+
+.acc-pic:hover {
+    transform: scale(1.2);
 }
 
 .acc-head {
@@ -125,6 +134,10 @@ color: #242526;
     font-size: 18px;
 }
 
+.button:hover {
+    transform: scale(1.20);
+}
+
 .delivery {
     margin-left: 200px;
     float: left;
@@ -136,4 +149,17 @@ color: #242526;
     height: 200px;
     margin-left: 30px;
     margin-right: 40px;
+    color: #333333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.see-more {
+    color:#74b3ce;
+    text-align: right;
+    margin-top: 30px; 
+    margin-right: 100px;
+}
+
+.icon {
+    text-align: center;
 }
