@@ -4,6 +4,8 @@
     margin-top: 100px;
     margin-left: 150px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .heading {
@@ -11,11 +13,14 @@
     color: #333333;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 160px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .heading-div {
     float: left;
     margin-left: 150px;
+    
 }
 
 .camera {
@@ -164,9 +169,7 @@ color: #242526;
     text-align: center;
 }
 
-@media (max-width: 480px) {
-    .body {
-        flex-direction: column;
-    }
+.body {
+    background-color: whitesmoke;
 }
   
