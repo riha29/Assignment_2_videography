@@ -1,0 +1,31 @@
+.title {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading {
+    font-size: 50px;
+    color: #333333;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 180px;
+}
+
+.heading-div {
+    float: left;
+    margin-left: 150px;
+}
+
+.camera {
+    margin-top: 80px;
+    height:400px;
+    width:  680px;
+    margin-right: 30px;
+}
+
+.accessories {
+    font-size: 33px;
+    text-align: center;
+}
