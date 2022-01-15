@@ -42,7 +42,7 @@
 .acc-head {
 font-size: 24px;
 font-weight: 250px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: #242526;
 }
 
@@ -55,9 +55,9 @@ color: #242526;
 }
 
 .acc-foot {
-    font-family:'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #242526;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .tripod {
@@ -75,7 +75,7 @@ color: #242526;
     padding-left: 30px;
     width: 280px;
     height: 395px;
-    box-shadow: 10px 10px 10px 10px lightgrey;  
+    box-shadow: 10px 10px 10px 10px lightgray;  
 }
 .portable {
     background-color: white;
@@ -88,11 +88,11 @@ color: #242526;
 
 .foot {
     background-color: #152238;
-    margin: 50px 0 0 0;
     color: white;
     height: 200px;
     padding: 10px 0 0 0;
     width: 100%;
+    margin-top: 180px;
 }
 
 .foot-head {
@@ -115,5 +115,25 @@ color: #242526;
 }
 
 .button {
-    background-color: lightgray;
+    background-color: #74b3ce;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.delivery {
+    margin-left: 200px;
+    float: left;
+    margin-top: 100px;
+}
+
+.deliver-txt {
+    margin-top: 180px;
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 40px;
 }
