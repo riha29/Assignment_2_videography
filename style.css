@@ -28,4 +28,57 @@
 .accessories {
     font-size: 33px;
     text-align: center;
+    color: #333333;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.tripod {
+    padding: 25px 25px;
+    width: 200px;
+    background-color: white;
+    float: left;
+}
+ .acc-pic {
+     height: 180px;
+     width: 200px;
+     border-radius: 7px;
+ }
+
+.acc-head {
+font-size: 24px;
+font-weight: 250px;
+font-family:'Times New Roman', Times, serif;
+color: #242526;
+}
+
+.acc-price {
+   font-size: 22px;
+   font-weight: 10px;
+   font-family:'Times New Roman', Times, serif;
+   color: #242526;
+   margin-top: 4px;
+}
+
+.acc-foot {
+    font-family:'Times New Roman', Times, serif;
+    color: #242526;
+    font-size: 18px;
+}
+
+.acc-bg {
+    
+}
+
+.microphone {
+    padding: 25px 25px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.portable-cam {
+    padding: 25px 25px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
 }
